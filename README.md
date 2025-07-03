@@ -1,72 +1,38 @@
-JASA Reproducibility Materials Template
-================
+All computations for this paper were performed in Excel
 
-This GitHub repository contains a suggested template structure for authors who
-submit to JASA (either Applications and Case Studies or Theory and
-Methods) to include materials to reproduce analyses, visualizations, and
-tables.
+Appendix 4 (below and appended withing the paper) describes how to calculate 
+the midpoint estimate and  the total margin of error (TME) under varying knowledge of
+candidate preferences among nonrespondents.
 
-We provide this template as a default structure that we (the JASA Associate Editors of Reproducibility) think could be
-useful for many projects, either as is or with modifications by authors.
-However, the template is intended to be helpful and is by no means
-required of authors. Authors should consult [our reproducibility
-guide](https://jasa-acs.github.io/repro-guide) for details on what is
-required of reproducibility materials submitted with JASA revisions (not
-required upon initial submission).
-
-## Why is a template repository useful?
-
-The purpose of this template repository is to provide a mechanism for
-author(s) to share their materials via a Git repository, hosted on a
-cloud-based repository manager such as GitHub or GitLab. This provides
-the following advantages for author(s):
-
-1.  Analyses (including code, narrative text, output, plots, etc) can be
-    version controlled (or branched or forked) allowing original
-    author(s) to continue to develop the analyses or other data analysts
-    to build off the analyses. Also iterations and changes to the
-    analysis are then available via the Git commit history.
-2.  Materials are easily available to other researchers.
-3.  Preparing a repository also makes it easy for the JASA Associate
-    Editors for Reproducibility to copy the materials for a JASA article
-    into the JASA GitHub repository where the final paper products are stored
-    after publication (https://github.com/jasa-acs).
-
-## How does the process work?
-
-### Step 1
-
-Author(s) can create a public GitHub repository in their own GitHub account
-by using this template repository. This template contains a basic 
-skeletal structure to help authors structure their code and analyses for their 
-JASA publication. Creating a repository with the template can be done in the following way: 
-
-Click on the "Use this template" button for [this GitHub template repository](https://github.com/jasa-acs/repro-template). (You'll need to be signed in to a GitHub account in order to see the button.)
-
-![Click template button](https://docs.github.com/assets/cb-36544/images/help/repository/use-this-template-button.png)
-
-From there, author(s) can [follow these instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template). However do not optionally select "**Include all branches**" as you do not need this for your own projects. 
+We have also uploaded to this repository an Excel file that calculates the TME 
+as depicted in Figure 1.
+﻿
+ 
+Appendix 4: Flowchart for Computation of TME
+ 
+STEP 1: Determine P(z = 0)
+STEP 2: Determine what is known about P(y = 1|z = 0), such as
+·         Section 2.1: No knowledge.
+·         Section 3.1: Predetermined bound. P(y = 1|z = 0) lies in an interval [λ0, λ1].
+·         Section 3.2: Predetermined distance. δ0 ≤ P(y = 1|z = 0) − P(y = 1|z = 1) ≤ δ1.
+STEP 3: Compute the midpoint of the identification interval estimate
+·         Section 2.1: m∙P(z = 1) + ½P(z = 0)
+·         Section 3.1: m∙P(z = 1) + ½(λ0 + λ1)P(z = 0)
+·         Section 3.2: m + ½(δ0 + δ1)P(z = 0)
+STEP 4: Compute the TME
+·         Section 2.1: ½[P(z = 1)2/N + P(z = 0)2]½
+·         Section 3.1: ½[P(z = 1)2/N + P(z = 0)2∙(λ1 − λ0)2]½
+·         Section 3.2: ½[1/N + P(z = 0)2∙(δ1 − δ0)2]½
 
 
-### Step 2
 
-The author(s) can then directly edit (or replace) the manuscript template files in their own GitHub repository. Author(s) can also add their own data, code, and other files as needed. 
 
-For guidance on getting started with git, we recommend the [Happy with git r](https://happygitwithr.com) tutorials.
 
-**Importantly, the authors should provide an overview of how to carry
-out the analyses presented in their manuscript in the `README.md` of their
-repository, replacing the content in this file.** This overview would
-generally refer to scripts/code files that execute the analyses and are
-placed either in the main directory or the `/code` subdirectory. The
-*Workflow* section of the ACC form should refer to this README.md as
-containing the instructions for how to reproduce the analyses.
 
-### Step 3
 
-Author(s) use `git commit` to track changes over time and use `git push`
-to push changes to a repository on the author(s) personal GitHub
-account.
+
+
+
 
 ### Step 4
 
