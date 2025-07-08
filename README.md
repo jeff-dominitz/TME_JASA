@@ -2,7 +2,7 @@ The data studied in this paper are publicly available online on the website of t
 https://www.nytimes.com/interactive/2024/07/03/us/elections/times-siena-poll-registered-voter-crosstabs.html?smid=nytcore-ios-share&referringSource=articleShare&sgrp=c-cb
 
 
-The calculations in the Illustration and in its Extensions 1-4 were performed by hand calcutation. Specifics are reported in the paper.
+The calculations in the Illustration and in its Extensions 1-4 were performed by hand. Specifics are reported in the paper.
 
 Computations for The graphical illustration in Figure 1 were performed in Excel. See the file TME graph.xlsx in this repository.
 
