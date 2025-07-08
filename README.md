@@ -1,17 +1,12 @@
-The data studied in this paper are publicly available online on the website of the New York Times at https://www.nytimes.com/interactive/2024/07/03/us/elections/times-siena-poll-registered-votercrosstabs.
-html?smid=nytcore-ios-share&referringSource=articleShare&sgrp=c-cb
+The data studied in this paper are publicly available online on the website of the New York Times at
+https://www.nytimes.com/interactive/2024/07/03/us/elections/times-siena-poll-registered-votercrosstabs.html?smid=nytcore-ios-share&referringSource=articleShare&sgrp=c-cb
 
-The calculations in the Illustration and in its Extensions 1-4 are simple and were performed by hand calcutation. Specifics are reported in the paper. Computations for The graphical illustration were performed in Excel. See the file graph.xlsx in this repository.
+The calculations in the Illustration and in its Extensions 1-4 were performed by hand calcutation. Specifics are reported in the paper.
+
+Computations for The graphical illustration in Figure 1 were performed in Excel. See the file TME graph.xlsx in this repository.
 
 
-
-Appendix 4 (below and appended withing the paper) describes how to calculate 
-the midpoint estimate and  the total margin of error (TME) under varying knowledge of
-candidate preferences among nonrespondents.
-
-We have also uploaded to this repository an Excel file that calculates the TME 
-as depicted in Figure 1.
-﻿
+Appendix 4 (below and appended within the paper) describes how to calculate the midpoint estimate and  the total margin of error (TME) under varying knowledge of candidate preferences among nonrespondents.
  
 Appendix 4: Flowchart for Computation of TME
  
