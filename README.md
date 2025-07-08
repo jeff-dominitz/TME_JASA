@@ -4,7 +4,7 @@ https://www.nytimes.com/interactive/2024/07/03/us/elections/times-siena-poll-reg
 
 The calculations in the Illustration and in its Extensions 1-4 were performed by hand. Specifics are reported in the paper.
 
-Computations for The graphical illustration in Figure 1 were performed in Excel. See the file TME graph.xlsx in this repository.
+Computations for The graphical illustration in Figure 1 were performed in Excel. See the file TME graph.xlsx in this repository. The file may be downloaded by clicking the "raw data" link. The graph is in Chart 1. The underlying spreadsheet is in Sheet 1.
 
 
 Appendix 4 (below and appended within the paper) describes how to calculate the midpoint estimate and  the total margin of error (TME) under varying knowledge of candidate preferences among nonrespondents.
