@@ -1,5 +1,6 @@
 The data studied in this paper are publicly available online on the website of the New York Times at
-https://www.nytimes.com/interactive/2024/07/03/us/elections/times-siena-poll-registered-votercrosstabs.html?smid=nytcore-ios-share&referringSource=articleShare&sgrp=c-cb
+https://www.nytimes.com/interactive/2024/07/03/us/elections/times-siena-poll-registered-voter-crosstabs.html?smid=nytcore-ios-share&referringSource=articleShare&sgrp=c-cb
+
 
 The calculations in the Illustration and in its Extensions 1-4 were performed by hand calcutation. Specifics are reported in the paper.
 
